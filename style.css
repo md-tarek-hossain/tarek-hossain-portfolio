@@ -27,8 +27,10 @@ h6 {
     color: darkgreen;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin: 0;
+
 
 }
 
@@ -61,4 +63,29 @@ section {
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.last-section {
+    padding: 5%;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px crimson;
+    border-radius: 2%;
+
+}
+
+.exp-bg {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer {
+
+    text-align: center;
 }
