@@ -86,6 +86,11 @@ h6 {
 }
 
 footer {
-
+    padding-top: 2cm;
     text-align: center;
+}
+
+#experience {
+    font-weight: 900;
+    padding-left: 2cm;
 }
